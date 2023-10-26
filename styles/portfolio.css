@@ -7,6 +7,12 @@
   --default-font-family: "Noto Serif Georgian", serif;
 }
 
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+
 body {
   font-family: var(--default-font-family);
 }
