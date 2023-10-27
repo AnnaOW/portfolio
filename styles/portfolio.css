@@ -1,6 +1,6 @@
 :root {
   --first-color: #f2f2f0;
-  --second-color: #ff5e3a;
+  --second-color: #e0513a;
   --third-color: #2c365d;
   --fourth-color: #272e4f;
   --heading-font-family: "Montserrat", sans-serif;
@@ -70,7 +70,17 @@ body {
     rgba(44, 54, 93, 1) 35%,
     rgba(242, 242, 240, 1) 100%
   );
-  padding: 160px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 20px;
+}
+
+.me-portrait {
+  border-radius: 75px;
+  border-color: var(--second-color);
+  max-width: 100%;
+  height: 480px;
 }
 
 .hero h1,
@@ -114,6 +124,10 @@ p {
   background: var(--first-color);
   color: var(--second-color);
   border-color: var(--second-color);
+}
+
+.me-portrait {
+  display: flex;
 }
 
 @media (max-width: 768px) {
