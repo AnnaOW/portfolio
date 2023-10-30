@@ -176,6 +176,11 @@ h2 {
   padding: 25px 0;
 }
 
+.content .contact-icon {
+  color: var(--second-color);
+  font-size: 30px;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 80px 20px;
