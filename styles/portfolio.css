@@ -244,7 +244,7 @@ footer .email-link:hover {
   color: var(--second-color);
 }
 
-footer .github-icon {
+footer .social-media-icons {
   background-color: var(--third-color);
   border-radius: 50%;
   color: var(--second-color);
@@ -253,7 +253,7 @@ footer .github-icon {
   padding: 10px;
 }
 
-footer .github-icon:hover {
+footer .social-media-icons:hover {
   background-color: var(--second-color);
   color: var(--third-color);
   transition: all 100ms ease-in-out;
