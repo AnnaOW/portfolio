@@ -44,7 +44,6 @@ body {
   color: var(--first-color);
   line-height: 27px;
   padding: 15px 30px;
-  margin-left: 5px;
   transition: 100ms all ease-in-out;
 }
 
@@ -74,7 +73,6 @@ body {
 h2,
 p {
   color: var(--first-color);
-  margin-left: 10px;
 }
 
 .hero p {
@@ -120,16 +118,17 @@ footer .btn-branding:hover {
   border-color: var(--second-color);
 }
 
-.about-container {
-  display: flex;
-  padding: 0px;
-}
-
 .me-portrait {
-  display: flex;
+  box-shadow: 5px -5px 20px rgba(224, 81, 58, 0.2);
+  display: block;
   border-radius: 10px;
   max-width: 100%;
+  margin: 0 auto;
   height: 292px;
+}
+
+.me-portrait:hover {
+  transform: scale(1.15, 1.15);
 }
 
 .about-section {
