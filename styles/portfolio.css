@@ -11,6 +11,39 @@ body {
   font-family: var(--default-font-family);
 }
 
+.logo {
+  max-width: 100px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  margin-top: 20px;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  font-family: var(--heading-font-family);
+  line-height: 42px;
+  list-style: none;
+}
+
+nav a {
+  color: var(--fourth-color);
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--second-color);
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+
 .introduction {
   color: var(--third-color);
   font-size: 24px;
@@ -132,7 +165,7 @@ footer .btn-branding:hover {
 }
 
 .about-section {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .about-section h1,
@@ -177,7 +210,7 @@ h2 {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -264,6 +297,15 @@ footer .social-media-icons:hover {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    margin-top: 18px;
+    max-height: 40px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
