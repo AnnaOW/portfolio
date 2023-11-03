@@ -296,6 +296,14 @@ footer .social-media-icons:hover {
   transition: all 100ms ease-in-out;
 }
 
+.signature {
+  color: var(--fourth-color);
+}
+
+.signature a {
+  color: var(--fourth-color);
+}
+
 @media (max-width: 768px) {
   .logo {
     margin-top: 18px;
