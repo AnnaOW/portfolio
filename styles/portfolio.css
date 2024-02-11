@@ -358,7 +358,7 @@ footer .social-media-icons:hover {
   }
 
   .hero h1 {
-    font-size: 52px;
+    font-size: 48px;
     line-height: 2;
   }
 
@@ -384,5 +384,9 @@ footer .social-media-icons:hover {
 
   footer .contact-box h4 {
     font-size: 18px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
   }
 }
