@@ -93,12 +93,6 @@ nav li.active a {
 
 .hero {
   background-color: var(--fourth-color);
-  background: linear-gradient(
-    90deg,
-    rgba(39, 46, 79, 1) 0%,
-    rgba(44, 54, 93, 1) 50%,
-    rgba(242, 242, 240, 1) 100%
-  );
   display: flex;
   justify-content: space-around;
   padding: 80px 20px;
