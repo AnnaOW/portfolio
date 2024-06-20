@@ -186,7 +186,7 @@ h2 {
 }
 
 .about-section p {
-  background-color: var(--third-color);
+  color: var(--third-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 2;
