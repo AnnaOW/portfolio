@@ -149,10 +149,10 @@ footer .btn-branding:hover {
 
 .me-portrait {
   display: block;
-  border-radius: 10px;
+  border-radius: 4px;
+  height: 450px;
   max-width: 100%;
   margin: 0 auto;
-  height: 292px;
 }
 
 .about-section {
